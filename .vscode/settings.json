@@ -1,0 +1,22 @@
+{
+    "eslint.enable": true,
+    "prettier.configPath": ".prettierrc.js",
+    "eslint.validate": [
+        { "language": "typescript", "autoFix": true },
+        { "language": "typescriptreact", "autoFix": true }
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "editor.formatOnSave": true
+    // "[javascript]": {
+    //     "editor.formatOnSave": false
+    // },
+    // "[javascriptreact]": {
+    //     "editor.formatOnSave": false
+    // },
+    // "[typescript]": {
+    //     "editor.formatOnSave": true
+    // },
+    // "[typescriptreact]": {
+    //     "editor.formatOnSave": false
+    // }
+}
