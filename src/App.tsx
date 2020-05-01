@@ -26,7 +26,7 @@ const App = (): ReactElement => {
                 <CountryPicker />
                 <Chart />
                 <div className={style.developper}>
-                    Developped by <a href={'http://google.com'}>Othmane LABZAR</a>
+                    Developped by <a href={'https://github.com/labzar/corona-covid-19'}>Othmane LABZAR</a>
                 </div>
             </div>
         </AppContext.Provider>
